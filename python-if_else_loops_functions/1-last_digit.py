@@ -5,7 +5,7 @@ if (number < 0):
     y = -1 *(abs(number)%10)
 elif(number >= 0):
     y = number%10
-number = x
+x = number
 if(y > 5):
     print(f"Last digit of {x} is {y} and is greater than 5")
 elif(y < 6 and y != 0):                                         
