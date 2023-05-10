@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 import random
-x = random.randint(-10000, 10000)
-if (x < 0):
+number = random.randint(-10000, 10000)
+if (number < 0):
     y = -1 *(abs(x)%10)
-elif(x >= 0):
+elif(number >= 0):
     y = x%10
+number = x
 if(y > 5):
     print(f"Last digit of {x} is {y} and is greater than 5")
 elif(y < 6 and y != 0):                                         
