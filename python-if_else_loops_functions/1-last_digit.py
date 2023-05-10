@@ -1,11 +1,13 @@
 #!/usr/bin/python3
-import random                                                                            
-number = random.randint(-10000, 10000)
-num_str = str(number)
-numcon = int(num_str[-1])
-if (numcon > 5):
-        print(f"Last digit of {number} is {numcon} and is greater than 5")
-elif (numcon < 6 and numcon != 0):
-        print(f"Last digit of {number} is {numcon} and is less than 6 and not 0")
-elif (numcon == 0):
-        print(f"Last digit of {number} is {numcon} and is 0")
+import random
+x = random.randint(-10000, 10000)
+if (x < 0):
+    y = -1 *(abs(x)%10)
+elif(x >= 0):
+    y = x%10
+if(y > 5):
+    print(f"Last digit of {x} is {y} and is greater than 5")
+elif(y < 6 and numcon != 0):                                         
+    print(f"Last digit of {x} is {y} and is less than 6 and not 0")
+elif(y ==0):
+    print(f"Last digit of {x} is {y} and is 0")
