@@ -7,3 +7,4 @@ def uppercase(str):
             print('{0}'.format(new_string), end = '')
         else:
             print(chr(str_int), end = '')
+    print(' ')
