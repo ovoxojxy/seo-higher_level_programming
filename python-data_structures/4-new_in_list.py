@@ -9,4 +9,5 @@ def new_in_list(my_list, idx, element):
                 new_list.append(element)
                 return new_list
             else:
+                new_list = my_list
                 return my_list
