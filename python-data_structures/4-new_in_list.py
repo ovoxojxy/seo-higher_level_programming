@@ -5,9 +5,10 @@ def new_in_list(my_list, idx, element):
         for i in range(len(my_list)):
             if i != idx:
                 new_list.append(my_list[i])
+                continue
             elif i == idx:
                 new_list.append(element)
-                return new_list
+            return new_list
             else:
                 new_list = my_list
                 return my_list
