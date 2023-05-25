@@ -8,3 +8,6 @@ class Square:
         ''' This method serves as a constructor '''
         self._Square__size = size
 
+    def area(self):
+        return self.size ** 2
+
