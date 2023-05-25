@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-''' This module creates a class Square that defines a square by: (based on 2-square.py) '''
+''' This module creates a class Square that defines a square by'''
 
 
 class Square:
@@ -10,4 +10,3 @@ class Square:
 
     def area(self):
         return self._Square__size ** 2
-
