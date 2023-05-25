@@ -5,5 +5,5 @@
 class Square:
     '''This class defines a square'''
 
-    def __init__(self, size):
+    def __init__(self, _Square__size):
         self.size = size
