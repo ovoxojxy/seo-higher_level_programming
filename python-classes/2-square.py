@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-''' This module is to create a class that defines a square''' 
+''' This module's purpose is to define a class that defines a square'''
 
 
 class Square:
