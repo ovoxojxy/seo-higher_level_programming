@@ -3,7 +3,7 @@
 class Square:
     ''' Documentation test chekc for class'''
     def __init__(self, size=0):
-        self._Square__size = size
+        self.size = size
     def area(self):
-        return self._Square__size ** 2
+        return self.size ** 2
 
