@@ -6,6 +6,4 @@ class Square:
         self.size = size
     def area(self):
         return self.size ** 2
-        except Exception as e:
-            print('size must be an integer')
 
