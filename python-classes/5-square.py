@@ -4,13 +4,12 @@
 
 class Square:
     ''' This class prints a square '''
-    
-    def __init__(slef, size=0):
-        self._Square__size = size
-
-    def are(self):
+    def __init__(self, size=0):
+        self._Square__size = size    
+            
+    def area(self):
         return self._Square__size ** 2
-
+                
     def my_print(self):
         for i in range(self._Square__size):
             for x in range(self._Square__size):
