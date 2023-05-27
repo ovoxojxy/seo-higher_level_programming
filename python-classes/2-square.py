@@ -25,5 +25,3 @@ class Square:
                 print(x)
             except TypeError:
                 print('size must be an integer')
-
-
