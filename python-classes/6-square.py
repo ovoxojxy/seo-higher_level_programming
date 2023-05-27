@@ -3,6 +3,7 @@
 
 
 class Sqaure:
+    '''This class defines a square and it's position'''
     def __init__(self, size=0, position=(0, 0)):
         self.size = size
 
