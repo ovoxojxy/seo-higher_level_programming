@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-''' This module's purpose is to define a class that defines a square and validates it's size with TypeError and ValueError functions'''
+''' This module creates a class Square that defines a square by''' 
 
 
 class Square:
