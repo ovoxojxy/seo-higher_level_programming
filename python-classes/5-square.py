@@ -16,5 +16,3 @@ class Square:
                 for x in range(self._Square__size):
                     print('#', end='')
                 print(sep='\n')
-        elif size = 0:
-            return ' '
