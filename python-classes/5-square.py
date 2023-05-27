@@ -11,7 +11,7 @@ class Square:
         return self._Square__size ** 2
                 
     def my_print(self):
-        if size > 0:
+        if self.size > 0:
             for i in range(self._Square__size):
                 for x in range(self._Square__size):
                     print('#', end='')
