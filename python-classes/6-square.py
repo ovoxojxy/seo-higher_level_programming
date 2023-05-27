@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-''' this module serves to define a class that defines a square'''
+    ''' this module serves to define a class that defines a square'''
 
 
 class Sqaure:
-'''This class defines a square and it's position'''
+        '''This class defines a square and it's position'''
     def __init__(self, size=0, position=(0, 0)):
         self.size = size
 
