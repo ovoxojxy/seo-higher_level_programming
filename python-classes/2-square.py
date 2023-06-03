@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-''' A class that represents a square. A class that represents a square.'''
+''' A class that represents a square A class that represents a square'''
+
 
 class Square:
     '''This class defines a sqaure and verifies the type of the size variable and it being greater than 0'''
