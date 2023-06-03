@@ -1,9 +1,8 @@
-#!/usr/bin/python3
-''' This module is to create a class that defines a square'''
+#!/usr/bin/python3                                                       
+''' This module is to create a class that defines a square'''            
 
-
-class Square:
-    '''This class defines a sqaure and verifies the type of the size variable and it being greater than 0'''
+                                                                                                                                                  class Square:
+                                                                                                                                                      '''This class defines a square'''
     def __init__(self, size=0):
         ''' This constructor initializes the class'''
         if size => 0 and type(size) is int:
