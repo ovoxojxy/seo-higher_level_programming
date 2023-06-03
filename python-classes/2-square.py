@@ -1,14 +1,5 @@
 #!/usr/bin/python3
-''' A class that represents a square.
-
-Attributes:
-    size (int): The size of the square.
-
-Methods:
-            __init__(self, size=0): Initializes a Square instance with an optional size.
-                ''' 
-
-
+''' A class that represents a square.'''
 class Square:
     '''This class defines a sqaure and verifies the type of the size variable and it being greater than 0'''
     def __init__(self, size=0):
