@@ -1,5 +1,5 @@
 #!/usr/bin/python3                                                       
-''' This module is to create a class that defines a square'''            
+''' This is to write a class that makes a square by taking in an argument for size'''            
 
                                                                                                                                                   class Square:
                                                                                                                                                       '''This class defines a square'''
