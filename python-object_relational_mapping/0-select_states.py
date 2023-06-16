@@ -26,3 +26,4 @@ for row in rows:
 
 cursor.close()
 cnx.close()
+print(0-select_states.py.__doc__)
