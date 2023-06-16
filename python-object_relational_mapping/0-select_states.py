@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-'''This module writes a script that lists all states frm the database hbtn_e_0_usa using 3 arguments and sorting in ascending order by states id'''
+'''This module writes a script that lists all states frm the database hbtn_e_0_usa using 3 arguments and sorting in ascending order by states '''
+print(0-select_states.__doc__)
 
 
 import sys
