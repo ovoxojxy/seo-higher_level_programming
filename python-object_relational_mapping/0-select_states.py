@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-'''this mod writes a script that lists all
-states frm the database hbtn_0e_0_usa'''
+'''this mod writes a script that lists all states frm the database hbtn_0e_0_usa'''
 
 
 import sys
@@ -26,4 +25,3 @@ for row in rows:
 
 cursor.close()
 cnx.close()
-print(0-select_states.py.__doc__)
