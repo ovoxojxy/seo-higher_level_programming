@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''this mod writes a script that lists all states frm the database hbtn_0e_0_usa'''
+'''This module writes a script that lists all states frm the database hbtn_e_0_usa using 3 arguments and sorting in ascending order by states id'''
 
 
 import sys
