@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-'''this module writes a script that lists all
-states from the database hbtn_0e_0_usa'''
+'''this mod writes a script that lists all
+states frm the database hbtn_0e_0_usa'''
 
 
 import sys
