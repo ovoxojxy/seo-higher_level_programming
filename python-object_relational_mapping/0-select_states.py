@@ -1,11 +1,14 @@
-'''This module writes a script that lists all states frm the database hbt
-n_e_0_usa using 3 arguments and sorting in ascending order by states ''' 
-#!/usr/bin/python3
+ #!/usr/bin/python3
+'''This module writes a script that lists all states frm the database hbt                                                                          
+n_e_0_usa using 3 arguments and sorting in ascending order by states '''
 
 
 import sys
 import MySQLdb
 
+
+'''This module writes a script that lists all states frm the database hbt                                                                          
+n_e_0_usa using 3 arguments and sorting in ascending order by states '''
 
 
 username = sys.argv[1]
