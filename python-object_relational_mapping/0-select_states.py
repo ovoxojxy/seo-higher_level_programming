@@ -27,8 +27,8 @@ cursor.execute(query)
 #fetch all the rows'''
 rows = cursor.fetchall()
 
-#iterate over the rows and print city names'''
 for row in rows:
+    #iterate over the rows and print city names'''
     state_id, state_name = row
     print(state_name)
 
