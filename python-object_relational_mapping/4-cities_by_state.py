@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 ''' This modules purpose is to Write a script that lists all cities from the database hbtn_0e_4_usa'''
+''' Documentation documentation documentation documentation documentation documentation '''
+
 
 import sys
 import MySQLdb
