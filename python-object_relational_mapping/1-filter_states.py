@@ -17,7 +17,7 @@ cursor.execute(query)
 
 rows = cursor.fetchall()
 
-for rows in rows:
+for row in rows: 
     state_id, state_name = row
     print(state_name)
 
