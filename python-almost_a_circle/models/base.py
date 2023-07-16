@@ -6,7 +6,7 @@ class Base:
     ''' The purpose of this class is to have the public instance variable ID'''
     __nb_objects = 0
 
-    def __init__(self, id = None):
+    def __init__(self, id=None):
         if id != none:
             return id
         else:
