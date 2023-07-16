@@ -3,7 +3,7 @@
 
 
 class Base:
-''' The purpose of this class is to have the public instance variable 'ID' be assigned whatever the parameter is set equal to'''
+    ''' The purpose of this class is to have the public instance variable ID'''
     __nb_objects = 0
 
     def __init__(self, id = None):
