@@ -10,4 +10,5 @@ class Base:
         if id != none:
             return id
         else:
-            id = _nb_objects + 1
+            Base.__nb_objects += 1
+            self.id = Base.__nb_objects
