@@ -1,10 +1,15 @@
 #!/usr/bin/python3
 
 import unittest
-import base.py
+import base
 
 class testBase(unittest.TestCase):
 
     def test__init__(self):
-        b = base.Base()
-        self.asserIsNotNone(b)
+        b = Base.Base()
+        self.assertIsNotNone(b)
+
+    def test_Base(self):
+        id = Base.Base()
+        self.assertTrue(id)
+        
