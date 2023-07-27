@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 import unittest
-import base.py
+from models.base import Base
 
 class testBase(unittest.TestCase):
 
