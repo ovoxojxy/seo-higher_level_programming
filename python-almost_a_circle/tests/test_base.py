@@ -23,7 +23,7 @@ class testBase(unittest.TestCase):
     def test_nb__objects_initialized(self):
         self.assertTrue(hasattr(Base.Base, "_Base__nb_objects"))
 
-    def test_nb__objects_initialized(self):
+    def test_nb_tests(self):
         self.assertEqual(type(getattr(Base, "_Base__nb_objects")), int)
 
     def test_instantiation(self):
