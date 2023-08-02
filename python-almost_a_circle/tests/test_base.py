@@ -42,3 +42,6 @@ class TestBase(unittest.TestCase):
             base.Base.__init__(self, 1, 2)
             msg = "Base.__init__() takes from 1 to 2 positional arguments but 3 \ were given"
             self.assertEqual(str(e.exception), msg)
+
+if __name__ == "__main__":
+    unittest.main()
